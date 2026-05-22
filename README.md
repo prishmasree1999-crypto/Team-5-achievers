@@ -337,26 +337,6 @@ To reproduce the live demo:
 - SFTP server must be accessible
 - Large inboxes may increase processing time
 
-# Security Notice
-
-The following files should NOT be uploaded publicly to GitHub:
-
-- `.env`
-- `credentials.json`
-
-Add them to `.gitignore`.
-
-Example:
-
-```gitignore
-.env
-credentials.json
-__pycache__/
-*.pyc
-logs/
-data/
-```
-
 # Future Improvements
 
 - Docker deployment
