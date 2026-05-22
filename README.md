@@ -261,31 +261,88 @@ Students receive automated reminder emails based on course progress.
 
 # Demo Instructions
 
-To reproduce the live demo:
+Follow these steps to reproduce the live demo of the CPR Lifeline Automation System.
 
-1. Open the dashboard application:
-   ```bash
-   python dashboard.py
-   ```
+## Step 1: Clone the Repository
 
-2. Configure Azure credentials and SFTP settings.
+```bash
+git clone https://github.com/prishmasree1999-crypto/Team-5-achievers.git
+cd Team-5-achievers
+------
 
-3. Start the automation pipeline.
+## Step 2: Install Dependencies
+pip install -r requirements.txt
+-----
+## Step 3: Configure Environment Files
 
-4. Authenticate with Azure organizational account.
+Update:
+.env
+config.json
 
-5. Allow the system to:
-   - Read Outlook emails
-   - Extract student data
-   - Generate CSV files
-   - Upload files to SFTP
-   - Update Google Sheets
+with valid:
 
-6. View:
-   - Analytics dashboard
-   - Student tables
-   - Reminder system
-   - Live logs
+Azure credentials
+AHA credentials
+SFTP credentials
+
+Place:
+credentials.json
+inside the project root folder.
+-----
+## Step 4: Run the Dashboard
+python dashboard.py
+
+This opens the PyQt5 dashboard interface.
+-----
+## Step 5: Start the Automation Pipeline
+
+Inside the dashboard:
+
+Click "Run Pipeline"
+
+OR run directly:
+
+python app_all_in_one.py
+---
+## Step 6: Authenticate with Azure
+
+Login using the Azure organizational account when prompted.
+
+The system will:
+
+Connect to Outlook
+Read CPR registration emails
+Extract student data
+---
+## Step 7: Verify Generated Files
+
+Check generated files inside the data/ folder:
+
+aha_output.csv
+preprod_cl.csv
+student_progress.csv
+---
+## Step 8: Verify Dashboard Analytics
+
+Inside the dashboard verify:
+
+Student counts
+Course analytics
+Location analytics
+Live logs
+Reminder system
+---
+## Step 9: Test Reminder Emails
+
+Use the Reminder tab to:
+
+Preview reminder emails
+Send manual reminders
+Test automated reminders
+
+## Step 10: Verify SFTP Upload
+
+The generated RQI CSV file will automatically upload to the configured SFTP server.
 
 ---
 
