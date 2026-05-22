@@ -7,10 +7,17 @@
 3. Thomas Williams  
 4. Murtaza Honarpoor  
 5. Shreeya Sapkota  
-6. Kostyantyn Tymoshchuk  
-
+6. Kostyantyn Tymoshchuk
 ---
+## Contact information 
+1.rpathakamuri@csus.edu
+2.michaelnguyen3@csus.edu
+3. thomaslwilliams@csus.edu
+4.murtazahonarpoor@csus.edu
+5.shreeyasapkota@csus.edu
+6. kostyantyntymoshchu@csus.edu
 
+----
 # Project Overview
 
 The CPR Lifeline Automation System is a full-stack automation platform developed to simplify and automate CPR course registration management for CPR Lifeline training centers.
