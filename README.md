@@ -265,7 +265,6 @@ Follow these steps to reproduce the live demo of the CPR Lifeline Automation Sys
 
 ## Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/prishmasree1999-crypto/Team-5-achievers.git
 cd Team-5-achievers
 ------
@@ -345,7 +344,6 @@ Test automated reminders
 The generated RQI CSV file will automatically upload to the configured SFTP server.
 
 ---
-
 # Dashboard Features
 
 ## Dashboard Page
