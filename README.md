@@ -108,8 +108,8 @@ CPR-Lifeline-Automation/
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-TEAM/cpr-lifeline-automation.git
-cd cpr-lifeline-automation
+git clone https://github.com/prishmasree1999-crypto/Team-5-achievers.git
+cd Team-5-achievers
 ```
 
 ---
